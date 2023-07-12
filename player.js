@@ -51,7 +51,7 @@ const songsList = [
       name: "Kahani Suno 2.0",
       link: "KahaniSuno.mp3",
       artist: "Kaifi Khalil",
-      image: "KahaniSuno.jpg",
+      image: "kahaniSuno.jpg",
     },
     {
       name: "Obsessed",
