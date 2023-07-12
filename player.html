@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="player.css">
+</head>
+<body>
+      <div class="music-player">
+        <button id="playlist">
+          <i class="fa-solid fa-list"></i>
+        </button>
+        <img id="song-image" src="TumheKitnaPyaarKarteBawaal.jpg"  height="300px" width="300px"/>
+        <div class="song-details">
+          <p id="song-name"><b>Tumhe Kitna Pyaar Karte</b></p>
+          <p id="song-artist"><b>Arijit Singh</b></p>
+        </div>
+      <div class="player-options">
+        <button id="shuffle">
+          <i class="fa-solid fa-shuffle fa-2x"></i>
+        </button>
+        <button id="prev">
+          <i class="fa-solid fa-backward-step fa-2x"></i>
+        </button>
+        <button id="play">
+          <i class="fa-solid fa-play fa-2x"></i>
+        </button>
+        <button id="pause" class="hide">
+          <i class="fa-solid fa-pause fa-2x"></i>
+        </button>
+        <button id="next">
+          <i class="fa-solid fa-forward-step fa-2x"></i>
+        </button>
+        <button id="repeat">
+          <i class="fa-solid fa-repeat fa-2x"></i>
+        </button>
+      </div>
+
+      <audio id="audio" preload="metadata"></audio>
+      <div id="progress-bar">
+        <div id="current-progress"></div>
+      </div>
+
+      <div class="time-container">
+        <span id="current-time">0:00</span>
+        <span id="max-duration">0:00</span>
+      </div>
+      <div id="playlist-container" class="hide">
+        <button id="close-button">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <ul id="playlist-songs"></ul>
+      </div>
+
+      <!-- Define the section for displaying the volume slider-->
+      <div class="volume_down">
+        <i class="fa fa-volume-down"></i>
+      </div>
+      <div class="slider_container">
+        <div class="slider">
+          <input type="range" min="0" max="100" value="50" class="volume_slider" oninput="setVolume(event)">
+          <progress min="0" max="100" value="50"></progress>
+        </div>
+      </div>
+      <div class="volume_up">
+        <i class="fa fa-volume-up"></i>
+      </div>
+    </div>
+      <script src="player.js"></script>
+</body>
+
+</html>
