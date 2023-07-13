@@ -293,8 +293,8 @@
         height: 2.5em;
         width: 2.5em;
         font-size: 1.7em;
-        padding-left: 10%;
-        padding-right: 10%;   
+        padding-left: 8%;
+        padding-right: 8%;   
     }
     
     #prev{
@@ -311,7 +311,7 @@
   }
   .volume_down{
     display: inline;
-    padding-left: 3.5%;
+    padding-left: 4%;
   }
     #close-button {
     padding-right: 5%
