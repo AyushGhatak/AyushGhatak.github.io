@@ -44,5 +44,30 @@ body {
     z-index: -1;
   }
   
+    @media screen and (max-width: 1500px){
+    .pulser {
+      width: 370px;
+      height: 370px;
+      margin-top: 10%;
+      margin-bottom: 10%;
+    }
+  }
 
+  @media screen and (max-width: 850px){
+    .pulser {
+      width: 330px;
+      height: 330px;
+      margin-top: 10%;
+      margin-bottom: 10%;
+    }
+  }
+
+  @media screen and (max-width: 550px){
+    .pulser {
+      width: 230px;
+      height: 230px;
+      margin-top: 10%;
+      margin-bottom: 10%;
+    }
+  }
   
