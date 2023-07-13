@@ -293,16 +293,18 @@
         height: 2.5em;
         width: 2.5em;
         font-size: 1.7em;
+        padding-left: 8%;
+        padding-right: 8%;   
     }
     
     #prev{
         padding-left: 10%;
-        padding-right: 10%;
+        padding-right: 8%;
         font-size: 1.3em;
     }
     #next{
         padding-right: 10%;
-        padding-left: 10%;
+        padding-left: 8%;
         font-size: 1.3em;
     }
     #shuffle,
@@ -311,6 +313,6 @@
   }
   .volume_down{
     display: inline;
-    padding-left: 2%;
+    padding-left: 3.5%;
   }
 }
