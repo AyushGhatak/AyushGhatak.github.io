@@ -284,14 +284,12 @@
     }
 
     #song-image{
-      height: 100px;
-      width: 100px;
+      height: 230px;
+      width: 230px;
     }
 
     #play,
     #pause {
-        padding-left: 10%;
-        padding-right: 10%;
         height: 2.2em;
         width: 2.2em;
         font-size: 1.7em;
