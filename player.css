@@ -273,5 +273,35 @@
       padding-left: 15%;
     }
   }
-  
+
  
+  @media screen and (max-width: 450px) {
+    .music-player {
+      font-size: 13px;
+      height: 83%;
+      width: 75vw;
+      max-width: 26.15em;
+    }
+
+    #song-image{
+      height: 250px;
+      width: 250px;
+    }
+
+  #play,
+  #pause {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  #shuffle{
+    padding-left: -2%;
+    padding-right: 1%;
+  }
+  #repeat {
+    padding-left: 2%;
+  }
+  .volume_down{
+    display: inline;
+    padding-left: 11%;
+  }
+  }
