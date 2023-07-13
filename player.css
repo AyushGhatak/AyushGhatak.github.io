@@ -52,7 +52,6 @@
     border: none;
     background-color: transparent;
   }
-  #play,
   #pause {
     height: 2.5em;
     width: 2.5em;
@@ -62,6 +61,15 @@
     border-radius: 50%;
     cursor: pointer;
     padding-left: 2%;
+  }
+  #play{
+    height: 2.5em;
+    width: 2.5em;
+    font-size: 1.8em;
+    background-color: black;
+    color: #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
   }
   #prev,
   #next {
