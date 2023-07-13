@@ -288,19 +288,20 @@
       width: 170px;
     }
 
-  #play,
-  #pause {
-    padding-left: 4%;
-    padding-right: 4%;
-  }
- #prev{
-    padding-left: 4%;
-  }
-#next{
-    padding-right: 4%;
-}
+    #play,
+    #pause {
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    
+    #prev{
+        padding-left: 4%;
+    }
+    #next{
+        padding-right: 4%;
+    }
   .volume_down{
     display: inline;
     padding-left: 5%;
   }
-  }
+}
