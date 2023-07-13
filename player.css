@@ -275,7 +275,7 @@
   }
 
  
-  @media screen and (max-width: 420px) {
+  @media screen and (max-width: 320px) {
     .music-player {
       font-size: 13px;
       height: 83%;
