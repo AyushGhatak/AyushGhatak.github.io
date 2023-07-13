@@ -278,7 +278,7 @@
   @media screen and (max-width: 550px) {
     .music-player {
       font-size: 13px;
-      height: 79%;
+      height: 80%;
       width: 75vw;
       max-width: 26.15em;
     }
@@ -293,8 +293,8 @@
         height: 2.5em;
         width: 2.5em;
         font-size: 1.7em;
-        padding-left: 8%;
-        padding-right: 8%;   
+        padding-left: 12%;
+        padding-right: 12%;   
     }
     
     #prev{
