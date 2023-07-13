@@ -314,22 +314,22 @@
   }
   .volume_down{
     display: inline;
-    padding-left: 4%;
+    padding-left: 12%;
   }
     #close-button {
     padding-right: 5%
   }
 
     .slider{
-    width: 150px;
+    width: 125px;
   }
    
 /* Modify the appearance of the slider */
     .volume_slider {
-    width: 154px;
+    width: 129px;
   }
 
     .slider progress{
-    width: 150px;
+    width: 125px;
   }
 }
