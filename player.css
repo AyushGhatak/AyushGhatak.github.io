@@ -299,12 +299,10 @@
     
     #prev{
         padding-left: 10%;
-        padding-right: 8%;
         font-size: 1.3em;
     }
     #next{
         padding-right: 10%;
-        padding-left: 8%;
         font-size: 1.3em;
     }
     #shuffle,
