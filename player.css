@@ -290,11 +290,11 @@
 
     #play,
     #pause {
+        padding-left: 8%;
+        padding-right: 8%;  
         height: 2.5em;
         width: 2.5em;
-        font-size: 1.7em;
-        padding-left: 8%;
-        padding-right: 8%;   
+        font-size: 1.7em; 
     }
     
     #prev{
