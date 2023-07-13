@@ -284,24 +284,33 @@
     }
 
     #song-image{
-      height: 100px;
-      width: 100px;
+      height: 50px;
+      width: 50px;
     }
 
     #play,
     #pause {
-        padding-left: 4%;
-        padding-right: 4%;
+        padding-left: 6%;
+        padding-right: 6%;
+        height: 2.2em;
+        width: 2.2em;
+        font-size: 1.7em;
     }
     
     #prev{
-        padding-left: 4%;
+        padding-left: 6%;
+        font-size: 1.3em;
     }
     #next{
-        padding-right: 4%;
+        padding-right: 6%;
+        font-size: 1.3em;
     }
+    #shuffle,
+    #repeat {
+    font-size: 0.9em;
+  }
   .volume_down{
     display: inline;
-    padding-left: 5%;
+    padding-left: 1%;
   }
 }
